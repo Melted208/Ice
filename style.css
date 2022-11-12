@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+a:active{
+  background-color:seagreen;
+  color:yellow;
+}
+a:hover{
+  background-color:aliceblue;
+  color:coral;
+}
+*{
+  color: whitesmoke;
+}
+ body{
+      background-image:url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg");background-repeat:no-repeat;
+      background-size:cover ;
+    }
+    main{
+      text-align:center ;
+    }
+h1:first-letter{
+  font-size:2em ;
+}
+a[target="_blank"]{
+  background-color:darkred;
+  color:skyblue;
+}
